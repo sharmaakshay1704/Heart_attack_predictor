@@ -1,0 +1,101 @@
+body{
+ 
+
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+ background-size:cover;
+ background-image: url('heart2.jpg');
+  background-repeat:no-repeat;
+  text-align:center;
+  background-position:fixed;
+
+
+  
+}
+
+
+
+.age ,.sex, .cp,.trestbps,.chol,.fbs,.restecg,.thalach,.exang,.oldpeak,.slope,.thal{
+  width:500px;
+  background: white;
+  height:32px;
+  padding: 2px;
+  margin: 2px;
+  color:black;
+  font-weight:bold;
+  font-size: 15px;
+  border-radius: 10px;
+  font-family: comic sans ms;
+  margin-bottom:3px;
+  
+
+
+}
+
+.submit{
+   background:linear-gradient(yellow,lightblue);
+
+   color:black;
+   opacity:0.8px;
+   border-radius: 10px;
+   height:40px;
+   opacity: 0.7;
+   margin-left: 30px;
+   font-weight:bold;
+
+}
+
+.container{
+  height:400px;
+  margin-top: 0px;
+ 
+  background-repeat:no-repeat;  
+  width:390px;
+  margin-left:800px;
+  margin-right:820px;
+  padding:16px;
+ 
+  
+}
+
+img{
+	width:100%;
+	height:auto;
+}
+
+h1{
+	font-size:55px;
+    background:linear-gradient(blue,red);
+	-webkit-background-clip:text;
+	-webkit-text-fill-color:transparent;
+	
+}
+
+h2{
+	font-size:40px;
+    background:linear-gradient(tomato,#8A0303);
+	-webkit-background-clip:text;
+	-webkit-text-fill-color:transparent;
+	margin-top:180px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,17 @@
+{% load static %}
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{% static 'home2.css' %}">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    {%ifequal Y_pred 1 %}
+      <h1 class='heading1'>There is a chance of heart attack!!!</h1>
+    {%else%}
+        <h1 class='heading2'>You are safe and healthy :)</h1>
+    {%endifequal%}
+    
+</body>
+</html>

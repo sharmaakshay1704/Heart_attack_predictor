@@ -1,0 +1,30 @@
+{% load static %}
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{% static 'home1.css' %}">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<h1>Heart Attack Predictor</h1>
+
+    <div class='container'>
+    <form action='home' method='POST' >{% csrf_token %}
+        <input type="text" name='age' placeholder='Enter your age' class='age'><br>
+        <input type="text" name='sex' placeholder='Enter your sex Eg:M/F' class='sex'><br>
+        <input type="text" name='cp' placeholder='Enter the type of chest pain eg:1/2/3/4' class='cp'><br>
+        <input type="text" name='trestbps' placeholder='Enter the Resting blood pressure eg 120' class='trestbps'><br>
+        <input type="text" name='chol' placeholder='Enter serum cholestoral value eg 180' class='chol'><br>
+        <input type="text" name='fbs' placeholder='Enter 1 if >12omg/dl or 0 if <120mg/dl' class='fbs'><br>
+        <input type="text" name='restecg' placeholder='Resting electrocardiographic results eg:1/2/3' class='restecg'><br>
+        <input type="text" name='thalach' placeholder='Maximum heart rate achieved eg 80' class='thalach'><br>
+        <input type="text" name='exang' placeholder='Exercise induced angina 1:yes or 0:no' class='exang'><br>
+        <input type="text" name='oldpeak' placeholder='ST depression induced by exercise relative to rest eg 0/1/1.5/3' class='oldpeak'><br>
+        <input type="text" name='slope' placeholder='The slope of the peak exercise ST segment eg: Value 1/2/3' class='slope'><br>
+        <input type="text" name='thal' placeholder='3 = normal; 6 = fixed defect; 7 = reversable defect' class='thal'><br>
+        <input type="submit" name='submit' placeholder='submit' class='submit'><br>
+    </form>  
+    </div>
+    <h2><marquee>(: Stay Fit, Stay Healthy :)</marquee></h2>
+	</body>
+</html>

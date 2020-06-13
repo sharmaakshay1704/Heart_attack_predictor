@@ -1,0 +1,13 @@
+body{
+    background-color: rgb(147, 203, 235);
+    background-repeat: no-repeat;
+}
+
+
+.heading1,.heading2{
+    text-align: center;
+    font-size: 40px;
+    background:black;
+    -webkit-background-clip:text;
+	-webkit-text-fill-color:transparent;   
+}
